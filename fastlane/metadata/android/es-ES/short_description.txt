@@ -1,1 +1,0 @@
-Chocola es un reproductor de música para Android. Simple, ligero, offline

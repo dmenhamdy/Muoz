@@ -1,0 +1,10 @@
+{
+  "name": "Chocola - Cute Music Player",
+  "description": "A cute, fluid, and powerful offline music player with Material 3 Expressive design, 10-band equalizer, synchronized lyrics, speed and pitch control, playlist customization, and AOD mode.",
+  "requestFeedback": false,
+  "userFacing": true,
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

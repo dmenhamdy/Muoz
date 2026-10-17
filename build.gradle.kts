@@ -1,5 +1,7 @@
-plugins {
-    alias(libs.plugins.androidApplication) apply false
-    alias(libs.plugins.compose.compiler) apply false
-    alias(libs.plugins.ksp) apply false
+tasks.register<Exec>("assembleDebug") {
+    commandLine("npm", "run", "build")
+}
+
+tasks.register<Exec>("lint") {
+    commandLine("npm", "run", "lint")
 }
